@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/953370280313626624/1002478873637822494/gradientExo.png?width=617&height=347');
+    margin: 0;
+  }
+  .form {
+    width: 340px;
+    height: 440px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;;
+  }
+  h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: #e73c60;
+    border-bottom: 3px solid #e73c60;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #e73c60;
+  }
+  input:focus {
+    border-bottom: 2px solid #e73c60;
+  }
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #e73c60;
+  }
+  button {
+    float: right;
+    padding: 8px 12px;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #e73c60;
+    background: 0;
+    color: #e73c60;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  button:hover {
+    background: #e73c60;
+    color: #fff;
+  }
+  span {
+    margin: 0 5px 0 15px;
+  }
